@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF5332701C3B67840064CE32 /* JTTTextResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53326B1C3B67840064CE32 /* JTTTextResult.m */; };
+		FF5332711C3B67840064CE32 /* NSString+JTTTextGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53326D1C3B67840064CE32 /* NSString+JTTTextGetter.m */; };
+		FF5332721C3B67840064CE32 /* NSTextView+JTTTextGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53326F1C3B67840064CE32 /* NSTextView+JTTTextGetter.m */; };
+		FF5332761C3B67900064CE32 /* JTTKeyboardEventSender.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5332751C3B67900064CE32 /* JTTKeyboardEventSender.m */; };
+		FF5332791C3B68980064CE32 /* JTTMagicLineSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5332781C3B68980064CE32 /* JTTMagicLineSetting.m */; };
+		FF53327C1C3B69350064CE32 /* JTTMagicLine.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53327B1C3B69350064CE32 /* JTTMagicLine.m */; };
+		FF8A88D61C4F62E100990982 /* SettingWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8A88D41C4F62E100990982 /* SettingWindowController.m */; };
+		FF8A88D71C4F62E100990982 /* SettingWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8A88D51C4F62E100990982 /* SettingWindowController.xib */; };
+		FFEA8CAA1C3A77E3008BEF0C /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEA8CA91C3A77E3008BEF0C /* AppKit.framework */; };
+		FFEA8CAC1C3A77E3008BEF0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEA8CAB1C3A77E3008BEF0C /* Foundation.framework */; };
+		FFEA8CB01C3A77E3008BEF0C /* AutoGenerateCode.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = FFEA8CAF1C3A77E3008BEF0C /* AutoGenerateCode.xcscheme */; };
+		FFEA8CB31C3A77E3008BEF0C /* AutoGenerateCode.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEA8CB21C3A77E3008BEF0C /* AutoGenerateCode.m */; };
+		FFEA8CB61C3A77E3008BEF0C /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEA8CB51C3A77E3008BEF0C /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF53326A1C3B67840064CE32 /* JTTTextResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTTextResult.h; sourceTree = "<group>"; };
+		FF53326B1C3B67840064CE32 /* JTTTextResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTTextResult.m; sourceTree = "<group>"; };
+		FF53326C1C3B67840064CE32 /* NSString+JTTTextGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JTTTextGetter.h"; sourceTree = "<group>"; };
+		FF53326D1C3B67840064CE32 /* NSString+JTTTextGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JTTTextGetter.m"; sourceTree = "<group>"; };
+		FF53326E1C3B67840064CE32 /* NSTextView+JTTTextGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextView+JTTTextGetter.h"; sourceTree = "<group>"; };
+		FF53326F1C3B67840064CE32 /* NSTextView+JTTTextGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextView+JTTTextGetter.m"; sourceTree = "<group>"; };
+		FF5332741C3B67900064CE32 /* JTTKeyboardEventSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTKeyboardEventSender.h; sourceTree = "<group>"; };
+		FF5332751C3B67900064CE32 /* JTTKeyboardEventSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTKeyboardEventSender.m; sourceTree = "<group>"; };
+		FF5332771C3B68980064CE32 /* JTTMagicLineSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTMagicLineSetting.h; sourceTree = "<group>"; };
+		FF5332781C3B68980064CE32 /* JTTMagicLineSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTMagicLineSetting.m; sourceTree = "<group>"; };
+		FF53327A1C3B69350064CE32 /* JTTMagicLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTMagicLine.h; sourceTree = "<group>"; };
+		FF53327B1C3B69350064CE32 /* JTTMagicLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTMagicLine.m; sourceTree = "<group>"; };
+		FF8A88D31C4F62E100990982 /* SettingWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingWindowController.h; sourceTree = "<group>"; };
+		FF8A88D41C4F62E100990982 /* SettingWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingWindowController.m; sourceTree = "<group>"; };
+		FF8A88D51C4F62E100990982 /* SettingWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingWindowController.xib; sourceTree = "<group>"; };
+		FFEA8CA61C3A77E3008BEF0C /* AutoGenerateCode.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoGenerateCode.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFEA8CA91C3A77E3008BEF0C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		FFEA8CAB1C3A77E3008BEF0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		FFEA8CAF1C3A77E3008BEF0C /* AutoGenerateCode.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = AutoGenerateCode.xcscheme; path = AutoGenerateCode.xcodeproj/xcshareddata/xcschemes/AutoGenerateCode.xcscheme; sourceTree = SOURCE_ROOT; };
+		FFEA8CB11C3A77E3008BEF0C /* AutoGenerateCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoGenerateCode.h; sourceTree = "<group>"; };
+		FFEA8CB21C3A77E3008BEF0C /* AutoGenerateCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoGenerateCode.m; sourceTree = "<group>"; };
+		FFEA8CB41C3A77E3008BEF0C /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		FFEA8CB51C3A77E3008BEF0C /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		FFEA8CB71C3A77E3008BEF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFEA8CA41C3A77E3008BEF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEA8CAA1C3A77E3008BEF0C /* AppKit.framework in Frameworks */,
+				FFEA8CAC1C3A77E3008BEF0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF5332691C3B67840064CE32 /* JTTCategory */ = {
+			isa = PBXGroup;
+			children = (
+				FF53326A1C3B67840064CE32 /* JTTTextResult.h */,
+				FF53326B1C3B67840064CE32 /* JTTTextResult.m */,
+				FF53326C1C3B67840064CE32 /* NSString+JTTTextGetter.h */,
+				FF53326D1C3B67840064CE32 /* NSString+JTTTextGetter.m */,
+				FF53326E1C3B67840064CE32 /* NSTextView+JTTTextGetter.h */,
+				FF53326F1C3B67840064CE32 /* NSTextView+JTTTextGetter.m */,
+			);
+			path = JTTCategory;
+			sourceTree = "<group>";
+		};
+		FF5332731C3B67900064CE32 /* JTTKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FF5332741C3B67900064CE32 /* JTTKeyboardEventSender.h */,
+				FF5332751C3B67900064CE32 /* JTTKeyboardEventSender.m */,
+			);
+			path = JTTKeyboard;
+			sourceTree = "<group>";
+		};
+		FF6C30C31C44A95000CA1E9D /* Settingview */ = {
+			isa = PBXGroup;
+			children = (
+				FF8A88D31C4F62E100990982 /* SettingWindowController.h */,
+				FF8A88D41C4F62E100990982 /* SettingWindowController.m */,
+				FF8A88D51C4F62E100990982 /* SettingWindowController.xib */,
+			);
+			path = Settingview;
+			sourceTree = "<group>";
+		};
+		FFEA8C9D1C3A77E3008BEF0C = {
+			isa = PBXGroup;
+			children = (
+				FFEA8CAD1C3A77E3008BEF0C /* AutoGenerateCode */,
+				FFEA8CA81C3A77E3008BEF0C /* Frameworks */,
+				FFEA8CA71C3A77E3008BEF0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFEA8CA71C3A77E3008BEF0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFEA8CA61C3A77E3008BEF0C /* AutoGenerateCode.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFEA8CA81C3A77E3008BEF0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFEA8CA91C3A77E3008BEF0C /* AppKit.framework */,
+				FFEA8CAB1C3A77E3008BEF0C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFEA8CAD1C3A77E3008BEF0C /* AutoGenerateCode */ = {
+			isa = PBXGroup;
+			children = (
+				FF6C30C31C44A95000CA1E9D /* Settingview */,
+				FF5332731C3B67900064CE32 /* JTTKeyboard */,
+				FF5332691C3B67840064CE32 /* JTTCategory */,
+				FFEA8CB11C3A77E3008BEF0C /* AutoGenerateCode.h */,
+				FFEA8CB21C3A77E3008BEF0C /* AutoGenerateCode.m */,
+				FFEA8CB41C3A77E3008BEF0C /* NSObject_Extension.h */,
+				FFEA8CB51C3A77E3008BEF0C /* NSObject_Extension.m */,
+				FF5332771C3B68980064CE32 /* JTTMagicLineSetting.h */,
+				FF5332781C3B68980064CE32 /* JTTMagicLineSetting.m */,
+				FF53327A1C3B69350064CE32 /* JTTMagicLine.h */,
+				FF53327B1C3B69350064CE32 /* JTTMagicLine.m */,
+				FFEA8CB71C3A77E3008BEF0C /* Info.plist */,
+				FFEA8CAE1C3A77E3008BEF0C /* Supporting Files */,
+			);
+			path = AutoGenerateCode;
+			sourceTree = "<group>";
+		};
+		FFEA8CAE1C3A77E3008BEF0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFEA8CAF1C3A77E3008BEF0C /* AutoGenerateCode.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFEA8CA51C3A77E3008BEF0C /* AutoGenerateCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFEA8CBA1C3A77E3008BEF0C /* Build configuration list for PBXNativeTarget "AutoGenerateCode" */;
+			buildPhases = (
+				FFEA8CA21C3A77E3008BEF0C /* Sources */,
+				FFEA8CA31C3A77E3008BEF0C /* Resources */,
+				FFEA8CA41C3A77E3008BEF0C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoGenerateCode;
+			productName = AutoGenerateCode;
+			productReference = FFEA8CA61C3A77E3008BEF0C /* AutoGenerateCode.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFEA8C9E1C3A77E3008BEF0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = " striveliu";
+				TargetAttributes = {
+					FFEA8CA51C3A77E3008BEF0C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FFEA8CA11C3A77E3008BEF0C /* Build configuration list for PBXProject "AutoGenerateCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFEA8C9D1C3A77E3008BEF0C;
+			productRefGroup = FFEA8CA71C3A77E3008BEF0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFEA8CA51C3A77E3008BEF0C /* AutoGenerateCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFEA8CA31C3A77E3008BEF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8A88D71C4F62E100990982 /* SettingWindowController.xib in Resources */,
+				FFEA8CB01C3A77E3008BEF0C /* AutoGenerateCode.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFEA8CA21C3A77E3008BEF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5332711C3B67840064CE32 /* NSString+JTTTextGetter.m in Sources */,
+				FFEA8CB31C3A77E3008BEF0C /* AutoGenerateCode.m in Sources */,
+				FF5332701C3B67840064CE32 /* JTTTextResult.m in Sources */,
+				FFEA8CB61C3A77E3008BEF0C /* NSObject_Extension.m in Sources */,
+				FF53327C1C3B69350064CE32 /* JTTMagicLine.m in Sources */,
+				FF8A88D61C4F62E100990982 /* SettingWindowController.m in Sources */,
+				FF5332721C3B67840064CE32 /* NSTextView+JTTTextGetter.m in Sources */,
+				FF5332791C3B68980064CE32 /* JTTMagicLineSetting.m in Sources */,
+				FF5332761C3B67900064CE32 /* JTTKeyboardEventSender.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FFEA8CB81C3A77E3008BEF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		FFEA8CB91C3A77E3008BEF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		FFEA8CBB1C3A77E3008BEF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = AutoGenerateCode/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinchao.dev.AutoGenerateCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		FFEA8CBC1C3A77E3008BEF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = AutoGenerateCode/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinchao.dev.AutoGenerateCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFEA8CA11C3A77E3008BEF0C /* Build configuration list for PBXProject "AutoGenerateCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEA8CB81C3A77E3008BEF0C /* Debug */,
+				FFEA8CB91C3A77E3008BEF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFEA8CBA1C3A77E3008BEF0C /* Build configuration list for PBXNativeTarget "AutoGenerateCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEA8CBB1C3A77E3008BEF0C /* Debug */,
+				FFEA8CBC1C3A77E3008BEF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFEA8C9E1C3A77E3008BEF0C /* Project object */;
+}
